@@ -1,0 +1,65 @@
+body {
+    text-rendering: optimizeLegibility;
+    }
+
+.FPO { 
+    color:          #ffffff; 
+    background:     #ff19b2; 
+    }
+
+.hider { 
+    display:        none;
+    }
+
+.block { 
+    display:        block;
+    }
+
+.fl {
+    float:          left;
+    }
+    
+.fr {
+    float:          right;
+    }
+
+.front {
+    z-index:        9999; 
+    }
+
+.tl {
+    text-align:     left;
+    }
+
+.tc {
+    text-align:     center; 
+    }
+
+.tr {
+    text-align:     right;
+    }
+    
+.ac:after {
+	content:        ".";
+	display:        block;
+	height:         0;
+	clear:          both;
+	visibility:     hidden;
+    }
+
+.ac { 
+    display:        inline-block;
+    }
+    
+/* Hides from IE-mac \*/
+* html .ac { 
+    height:         1%;
+    }
+
+.ac { 
+    display:        block;
+    }
+/* End hide from IE-mac */
+
+
+
